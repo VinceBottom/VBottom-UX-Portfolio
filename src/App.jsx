@@ -5,6 +5,7 @@ import {CaseStudy1Page} from "./pages/CaseStudy1Page";
 import {CaseStudy2Page} from "./pages/CaseStudy2Page";
 import {CaseStudy3Page} from "./pages/CaseStudy3Page";
 import ScrollToTop from "./components/ScrollToTop";
+import tailwindcss from '@tailwindcss/vite';
 
 function App() {
   return (

@@ -26,7 +26,7 @@ export const About = () => {
                 {" "}
                 Get in Touch
                 </a>
-            <a href="myresume.pdf" className="px-6 py-2 rounded-full border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
+            <a href=".\public\resume\VincentBottomResume.pdf" target="_blank" className="px-6 py-2 rounded-full border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
                 {" "}
                 Download Resume
                 </a>
@@ -65,18 +65,37 @@ export const About = () => {
                     <h4 className="font-semibold text-lg">Data Analysis</h4>
                     <p>Automating data analysis in Python and publishing academic research.</p>
                 </div>
+                
             </div>
-        </div>
             
+        </div>
             </div>
 
 
         </div>
         </div>
-
-
-
-
+<div className="container mx-auto max-w-5xl pt-16">
+            <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
+            Education <span className="text-primary"></span>    
+            </h2>
+</div>       
+<div className="flex justify-center items-center">
+    <div>
+    <img className="h-29 w-50 lg:w-45 lg:h-30 p-2" src="../public/logos/brandeislogo.jpg" alt="Brandeis University Logo"></img>
+    <p className="text-sm"><b>Master of Science</b></p>
+    <p className="text-sm sm:text-xs">UX Design</p>
+    </div>
+    <div>
+    <img className="h-29 w-50 size-auto lg:w-45 lg:h-30 p-2" src="../public/logos/metalogoalt.png" alt="Meta and Coursera Combined Logo"></img>
+    <p className="text-sm"><b>Certificate</b></p>
+    <p className="text-sm">Web Development</p>
+    </div>
+    <div>
+    <img className="h-29 w-50 size-auto lg:w-45 lg:h-30 p-2" src="../public/logos/depaullogo.gif" alt="DePaul University Logo"></img>
+    <p className="text-sm"><b>Bachelor cum laude</b></p>
+    <p className="text-sm">Psychology</p>
+    </div>
+</div>
         </section>
     );
 };

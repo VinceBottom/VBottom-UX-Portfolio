@@ -7,6 +7,9 @@ import { SkillsSection } from "../components/SkillsSection"
 import { ProjectsSection } from "../components/ProjectsSection"
 import { ContactSection } from "../components/ContactSection"
 import { Footer } from "../components/Footer"
+import { CaseStudy1 } from "../components/CaseStudy1"
+import { CaseStudy2 } from "../components/CaseStudy2"
+import { CaseStudy3 } from "../components/CaseStudy3"
 
 export const Home = () => {
     return (

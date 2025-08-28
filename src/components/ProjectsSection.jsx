@@ -1,37 +1,41 @@
 import { Github, ExternalLink, ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const projects = [
-            {
+        {
         id: 1,
+        title: "Yelp: Original User Research",
+        description: "Data-driven evidence for a friend referral feature in restaurant reviews on Yelp",
+        image: "/projects/Yelp Friend Referral Case Study Image.png",
+        tags: ["User Research","Usability Testing","User Surveys","Mixed-Methods Research"],
+        demoUrl: "#",
+        siteUrl: "/CaseStudy1Page",
+    },
+            {
+        id: 2,
         title: "PVF Fantasy Sports League: Original Web Design",
-        description: "A Pro Volleyball Fantasy Sports Website",
+        description: "A new web app to play fantasy sports using web-scraped indoor volleyball data",
         image: "/projects/PVF League UX Picture.png",
-        tags: ["Web Development","JavaScript","HTML/CSS","Web Scraping","Data Analysis"],
+        tags: ["Web Development","JavaScript","HTML/CSS","Web Scraping","Data Visualizaation"],
         demoUrl: "#",
         githubUrl: "",
-    },
-    {
-        id: 2,
-        title: "Yelp: Original User Research",
-        description: "A Friend Referral Feature in Restaurant Reviews for Yelp",
-        image: "/projects/Yelp Friend Referral Case Study Image.png",
-        tags: ["User Research","Usability Testing","Survey"],
-        demoUrl: "#",
+        siteUrl: "/CaseStudy2Page",
     },
     {
         id: 3,
         title: "Run it Back Mobile App: Original Research and Design",
         description: "An app that makes it easier to find pick-up sports games near you",
-        image: "/projects/Pickup sports app capture.png",
-        tags: ["User Research","Usability Testing","Design","Prototype","Figma"],
+        image: "/projects/Run It Back Wireframe.png",
+        tags: ["User Research","Usability Testing","UX Design","Figma","Mixed-Methods Research"],
         demoUrl: "#",
+        siteUrl: "/CaseStudy3Page",
     }
-]
+];
 
 export const ProjectsSection = () => {
     return (<section id="projects" className="py-24 px-4 relative">
         <div className="container mx-auto max-w-5xl">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center s"> Featured <span className="text-primary"> Projects</span>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center"> Featured <span className="text-primary"> Projects</span>
             </h2>
 
             <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
@@ -41,6 +45,7 @@ export const ProjectsSection = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {projects.map((project, key) => (
+                    <Link to={project.siteUrl} key={key}>
                     <div key={key} className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover"
                     >
                         <div className="h-48 overflow-hidden">
@@ -56,14 +61,16 @@ export const ProjectsSection = () => {
 
                             <h3 className="text-xl font-semibold mb-1"> {project.title} </h3>
                             <p className="text-muted-foreground text-sm mb-4">{project.description}
-                           <div className="flex justify-between items-center">
-                                <div className="flex space-x-3">
-                                </div>
-                            </div>
+                           <span className="flex justify-between items-center">
+                                <span className="flex space-x-3">
+                                </span>
+                            </span>
                             </p>
                         </div>
+                        
                 
                 </div>
+                </Link>
                 ))}
             </div>
             <div className="text-center mt-12">
@@ -72,10 +79,10 @@ export const ProjectsSection = () => {
                     href="https://github.com/VinceBottom"
                 
                 >
-                    Find My GitHub <ArrowRight size={16} />
+                   <Github size={18}/> Find My GitHub <ArrowRight size={16} />
                 </a>
             </div>
         </div>
     </section>
     )
-}
+};

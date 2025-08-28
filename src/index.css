@@ -89,8 +89,11 @@
   * {
      @apply border-border; 
   }
-  html {
+  body {
     @apply scroll-smooth;
+  }
+  .nav {
+    @apply scroll-auto;
   }
   body {
     @apply bg-background text-foreground transition-colors duration-300;

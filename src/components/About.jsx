@@ -81,17 +81,17 @@ export const About = () => {
 </div>       
 <div className="flex justify-center items-center">
     <div>
-    <img className="h-29 w-50 lg:w-45 lg:h-30 p-2" src="../public/logos/brandeislogo.jpg" alt="Brandeis University Logo"></img>
+    <img className="h-29 w-50 lg:w-45 lg:h-30 p-2" src="../public/logos/brandeislogo.JPG" alt="Brandeis University Logo"></img>
     <p className="text-sm"><b>Master of Science</b></p>
     <p className="text-sm sm:text-xs">UX Design</p>
     </div>
     <div>
-    <img className="h-29 w-50 size-auto lg:w-45 lg:h-30 p-2" src="../public/logos/metalogoalt.png" alt="Meta and Coursera Combined Logo"></img>
+    <img className="h-29 w-50 size-auto lg:w-45 lg:h-30 p-2" src="../public/logos/metalogoalt.PNG" alt="Meta and Coursera Combined Logo"></img>
     <p className="text-sm"><b>Certificate</b></p>
     <p className="text-sm">Web Development</p>
     </div>
     <div>
-    <img className="h-29 w-50 size-auto lg:w-45 lg:h-30 p-2" src="../public/logos/depaullogo.gif" alt="DePaul University Logo"></img>
+    <img className="h-29 w-50 size-auto lg:w-45 lg:h-30 p-2" src="../public/logos/depaullogo.GIF" alt="DePaul University Logo"></img>
     <p className="text-sm"><b>Bachelor cum laude</b></p>
     <p className="text-sm">Psychology</p>
     </div>

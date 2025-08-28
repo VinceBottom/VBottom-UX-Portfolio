@@ -22,7 +22,7 @@ export const CaseStudy1 = () => {
             <div className="container mx-auto max-w-5xl">
                 <div className="grid grid-cols-1 md:grid-cols-2 items-center">
                     <div className="space-y-6 mr-4">
-                    <img className="border-1" src="../public/graphs/foodiesgraph2.PNG" alt="graph showing questionable review validity frustrates users"></img>  
+                    <img className="border-1" src="/graphs/foodiesgraph2.png" alt="graph showing questionable review validity frustrates users"></img>  
                     </div>
                     <div className="pt-4 pb-7 text-left text-lg">
                     <p><b className="text-secondary"> 1 in 5 users do not trust the validity
@@ -32,7 +32,7 @@ export const CaseStudy1 = () => {
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 items-center pt-3 md:pt-4">
                     <div className="space-y-6 mr-4">
-                    <img className="border-1" src="../public/graphs/foodiesgraph.PNG" alt="graph showing some differences between non-food-connoisseurs and casual eaters in source preference"></img>  
+                    <img className="border-1" src="/graphs/foodiesgraph.png" alt="graph showing some differences between non-food-connoisseurs and casual eaters in source preference"></img>  
                     </div>
                     <div className="pt-5 pb-7 text-left text-lg">
                     <p><b className="text-secondary"> </b> While <b className="text-secondary">food connoisseurs seek out more total information sources</b> to find restaurants, <b className="text-secondary"> both
@@ -48,8 +48,8 @@ export const CaseStudy1 = () => {
                 <div>
                 </div>
                 <div className='pt-4'>
-                    <img className= "border-1" src="../public/projects/persona1.png" alt="user persona of Carl the Chef, a research-derived persona that represents a food connoisseur"></img>
-                    <img className="border-1 mt-4" src="../public/projects/persona2.png" alt="user persona of Sawyer the Social Butterfly, a research-derived persona that represents a casual eater"></img>
+                    <img className= "border-1" src="/projects/persona1.png" alt="user persona of Carl the Chef, a research-derived persona that represents a food connoisseur"></img>
+                    <img className="border-1 mt-4" src="/projects/persona2.png" alt="user persona of Sawyer the Social Butterfly, a research-derived persona that represents a casual eater"></img>
                 </div>
                  <p className="pt-41">
                     <span className="opacity-0 animate-fade-in text-lg">In order to <b>further empathize</b> with these two user groups, <b>I created storyboards</b> to explore their unique <b>user needs.</b></span>   
@@ -64,8 +64,8 @@ export const CaseStudy1 = () => {
                     </span>
                 </p>
                 <div className='pt-5 md:pt-7'>
-                    <img className="border-1" src="../public/projects/storyboard2fix.png" alt="A storyboard representing a night in which the user persona Sawyer the Social Butterfly tries to remember a friend's food recommendation, but fails"></img>
-                    <img className="mt-3 border-1" src="../public/projects/storyboard1fix.png" alt="A storyboard representing Carl the Chef struggling with reading through many different restaurant reviews, before giving up and trying one at random"></img>
+                    <img className="border-1" src="/projects/storyboard2fix.png" alt="A storyboard representing a night in which the user persona Sawyer the Social Butterfly tries to remember a friend's food recommendation, but fails"></img>
+                    <img className="mt-3 border-1" src="/projects/storyboard1fix.png" alt="A storyboard representing Carl the Chef struggling with reading through many different restaurant reviews, before giving up and trying one at random"></img>
                 </div>
                 <p className="pt-41">
                     <span className="opacity-0 animate-fade-in text-lg">
@@ -78,8 +78,8 @@ export const CaseStudy1 = () => {
                     </span>
                 </p>
                 <div className="grid md:grid-cols-2 pt-4">
-                    <img className="border-1 md:max-w-85" src="../public/projects/friendbites2.png" alt="A website prototype screen displaying a map and search navigation for finding friend-recommended restaurants."></img>
-                    <img className="border-1 md:max-w-85 md:mt-0 mt-3" src="../public/projects/friendbites1.png" alt="A website prototype screen displaying local food news, with option to navigate to other taps such as My Profile, My Friend's Top Picks, or to select Map Mode"></img>  
+                    <img className="border-1 md:max-w-85" src="/projects/friendbites2.png" alt="A website prototype screen displaying a map and search navigation for finding friend-recommended restaurants."></img>
+                    <img className="border-1 md:max-w-85 md:mt-0 mt-3" src="/projects/friendbites1.png" alt="A website prototype screen displaying local food news, with option to navigate to other taps such as My Profile, My Friend's Top Picks, or to select Map Mode"></img>  
                 </div>
                 <p className="pt-41">
                     <span className="opacity-0 animate-fade-in text-lg">
@@ -97,7 +97,7 @@ export const CaseStudy1 = () => {
                     </span>
                 </p>
                  <div className="pt-4">
-                    <img className="border-1 sm:size-m justify-center" src="../public/graphs/foodiesusability.png" alt="A graphic representing final user research recommendations, their difficulty, and impact, including adding breadcrumbs to the login page, creating a friend recomendation feature for restaurants, and adding social media login capability (such as through Google, Meta)"></img>
+                    <img className="border-1 sm:size-m justify-center" src="/graphs/foodiesusability.png" alt="A graphic representing final user research recommendations, their difficulty, and impact, including adding breadcrumbs to the login page, creating a friend recomendation feature for restaurants, and adding social media login capability (such as through Google, Meta)"></img>
                 </div>
                 <p className="pt-4">
                     <span className="opacity-0 animate-fade-in text-lg">

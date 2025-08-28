@@ -21,7 +21,7 @@ export const CaseStudy2 = () => {
             <div className="container mx-auto max-w-5xl">
                 <div className="grid grid-cols-1 md:grid-cols-2 items-center">
                     <div className="space-y-6 mr-4">
-                    <img className="border-1" src="../public/projects/codesnippet2.PNG" alt="A screenshot of Python code that uses its Playwright and BeautifulSoup packages to scrape online volleyball roster data from the web"></img>  
+                    <img className="border-1" src="/projects/codesnippet2.png" alt="A screenshot of Python code that uses its Playwright and BeautifulSoup packages to scrape online volleyball roster data from the web"></img>  
                     </div>
                     <div className="pt-4 pb-7 text-left text-lg">
                     <p className="text-secondary">I first used a combination of Python's packages Playwright and BeautifulSoup to pull player names, positions, and rosters from the pro volleyball website. BeautifulSoup helped to parse the html into csv format.
@@ -30,7 +30,7 @@ export const CaseStudy2 = () => {
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 items-center pt-3 md:pt-4">
                     <div className="space-y-6 mr-4">
-                    <img className="border-1" src="../public/projects/pvfpics.PNG" alt="An action picture of a professional opposite hitter in volleyball hitting a ball past an opposing blocker, with the pro volleyball federation logo in the center"></img>  
+                    <img className="border-1" src="/projects/pvfpics.png" alt="An action picture of a professional opposite hitter in volleyball hitting a ball past an opposing blocker, with the pro volleyball federation logo in the center"></img>  
                     </div>
                     <div className="pt-5 pb-7 text-left text-lg">
                     <p className="text-secondary">From there I created a data pipeline to pull in-game data from the websites, convert it into player statistics, and update many reusable data tables to add the new numbers into the website.
@@ -45,8 +45,8 @@ export const CaseStudy2 = () => {
                 <div>
                 </div>
                 <div className='grid grid-cols-1 md:grid-cols-2 items-center pt-4'>
-                    <img className= "border-1" src="../public/projects/pvf2.png" alt="The home landing page for the PVF Fantasy Volleyball League website, currently displaying team standings."></img>
-                    <img className="border-1 mt-4 md:ml-19 md:mt-0 md:size-58 size:70" src="../public/projects/pvf8.png" alt="The home landing page for the mobile format of the PVF Fantasy Volleyball League website, with only the navigation links in view."></img>
+                    <img className= "border-1" src="/projects/pvf2.png" alt="The home landing page for the PVF Fantasy Volleyball League website, currently displaying team standings."></img>
+                    <img className="border-1 mt-4 md:ml-19 md:mt-0 md:size-58 size:70" src="/projects/pvf8.png" alt="The home landing page for the mobile format of the PVF Fantasy Volleyball League website, with only the navigation links in view."></img>
                 </div>
                  <p className="pt-7">
                     <span className="opacity-0 animate-fade-in text-lg">I experimented with different data table formats to visualize the player data. Since users would need to cross-reference and compare their own team statistics along with potential free agents and other teams, I included the functionality to sort tables by individual statistics.</span>   
@@ -61,7 +61,7 @@ export const CaseStudy2 = () => {
                     </span>
                 </p>
                 <div className='pt-5 md:pt-7'>
-                    <img className="border-1" src="../public/projects/pvf3.png" alt="A responsive JavaScript DataTable currently displaying All Player Stats on the PVF Fantasy Volleyball Website"></img>
+                    <img className="border-1" src="/projects/pvf3.png" alt="A responsive JavaScript DataTable currently displaying All Player Stats on the PVF Fantasy Volleyball Website"></img>
                 </div>
                 <hr className="pt-2"></hr>
                 <p className="pt-43 pb-21">

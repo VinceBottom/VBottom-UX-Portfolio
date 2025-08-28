@@ -23,7 +23,7 @@ export const CaseStudy3 = () => {
             <div className="container mx-auto max-w-5xl">
                 <div className="grid grid-cols-1 md:grid-cols-2 items-center">
                     <div className="space-y-6 mr-4">
-                    <img className="border-1" src="../public/graphs/graphRIB.PNG" alt="Graph showing the top two user frustrations are finding new people and access to gyms"></img>  
+                    <img className="border-1" src="/graphs/graphRIB.png" alt="Graph showing the top two user frustrations are finding new people and access to gyms"></img>  
                     </div>
                     <div className="pt-4 pb-7 text-left text-lg">
                     <p><b className="text-secondary"> 7 in 10 users </b>  report difficulty with finding new players. This can be especially difficult for sports that require many players.
@@ -32,7 +32,7 @@ export const CaseStudy3 = () => {
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 items-center pt-3 md:pt-4">
                     <div className="space-y-6 mr-4">
-                    <img className="border-1" src="../public/projects/competitor2.png" alt="Graph of an older, athletic man with a beard climbing on hanging rings in an obstacle course"></img>  
+                    <img className="border-1" src="/projects/competitor2.png" alt="Graph of an older, athletic man with a beard climbing on hanging rings in an obstacle course"></img>  
                     </div>
                     <div className="pt-5 pb-7 text-left text-lg">
                     <p><b className="text-secondary"> </b> A <b>small subset of users </b> (30%) indicated that they <b>prefer high competition-level</b> to socializing.
@@ -47,8 +47,8 @@ export const CaseStudy3 = () => {
                 <div>
                 </div>
                 <div className='pt-4'>
-                    <img className= "border-1" src="../public/projects/uripersona.png" alt="User persona for Uri the Uncertain, a research-derived persona that would like to play more sports socially but feels awkward and nervous to do so"></img>
-                    <img className="border-1 mt-4" src="../public/projects/customerjourneymap.png" alt="A customer journey map for Uri the Uncertain, as he navigates finding new friends to play pickleball with"></img>
+                    <img className= "border-1" src="/projects/uripersona.png" alt="User persona for Uri the Uncertain, a research-derived persona that would like to play more sports socially but feels awkward and nervous to do so"></img>
+                    <img className="border-1 mt-4" src="/projects/customerjourneymap.png" alt="A customer journey map for Uri the Uncertain, as he navigates finding new friends to play pickleball with"></img>
                 </div>
                  <p className="pt-41">
                     <span className="opacity-0 animate-fade-in text-lg">Then, I created <b className="text-primary">low-fidelity wireframes </b>to address these core user needs: finding other players and managing field or court availability.</span>   
@@ -63,8 +63,8 @@ export const CaseStudy3 = () => {
                     </span>
                 </p>
                 <div className='grid grid-cols-1 md:grid-cols-2 pt-5 mx-auto'>
-                    <img className="md:size-93 border-1" src="../public/projects/wireframes3.png" alt="Low-fidelity prototype of the Available Players Near You screen in gray and white depicting an app to find pick-up sports players in your area"></img>
-                    <img className="mt-3 md:mt-0 border-1 md:size-93" src="../public/projects/wireframes4.png" alt="Low-fidelity prototype of the My Games Screen in gray and white depicting an app to find pick-up sports players in your area"></img>
+                    <img className="md:size-93 border-1" src="/projects/wireframes3.png" alt="Low-fidelity prototype of the Available Players Near You screen in gray and white depicting an app to find pick-up sports players in your area"></img>
+                    <img className="mt-3 md:mt-0 border-1 md:size-93" src="/projects/wireframes4.png" alt="Low-fidelity prototype of the My Games Screen in gray and white depicting an app to find pick-up sports players in your area"></img>
                 </div>
                 <p className="pt-41 md:pt-5">
                     <span className="opacity-0 animate-fade-in text-lg">
@@ -82,8 +82,8 @@ export const CaseStudy3 = () => {
                     </span>
                 </p>
                  <div className='grid grid-cols-1 md:grid-cols-2 pt-5 mx-auto'>
-                    <img className="md:size-93 border-1" src="../public/projects/lofiprototypev2.png" alt="Low-fidelity prototype screen depicting Basketball 1 versus 1 players available now in gray and white"></img>
-                    <img className="mt-3 md:mt-0 border-1 md:size-93" src="../public/projects/lofiprototype2v2.png" alt="Low-fidelity prototype screen also depicting Basketball 1 versus 1, but with sending a game request to a player named Josh, and a notification arrives that he accepts the request"></img>
+                    <img className="md:size-93 border-1" src="/projects/lofiprototypev2.png" alt="Low-fidelity prototype screen depicting Basketball 1 versus 1 players available now in gray and white"></img>
+                    <img className="mt-3 md:mt-0 border-1 md:size-93" src="/projects/lofiprototype2v2.png" alt="Low-fidelity prototype screen also depicting Basketball 1 versus 1, but with sending a game request to a player named Josh, and a notification arrives that he accepts the request"></img>
                 </div>
                  <p className="pt-41">
                     <span className="opacity-0 animate-fade-in text-lg">
@@ -101,8 +101,8 @@ export const CaseStudy3 = () => {
                     </span>
                 </p>
                 <div className='grid grid-cols-1 md:grid-cols-2 pt-41 mx-auto'>
-                    <img className="md:size-93 border-1" src="../public/projects/hifiwireframes2v2.png" alt="High-fidelity prototype screens in full color of a Basketball 1 versus 1 page where the user has clicked on the profile card of Josh P., a college player with brown hair."></img>
-                    <img className="mt-3 md:mt-0 border-1 md:size-93" src="../public/projects/hifiwireframes2.png" alt="High-fidelity prototype screens in full color displaying Soccer Groups near the San Diego region, and another screen depicting the final stages of scheduling a 1 versus 1 
+                    <img className="md:size-93 border-1" src="/projects/hifiwireframes2v2.png" alt="High-fidelity prototype screens in full color of a Basketball 1 versus 1 page where the user has clicked on the profile card of Josh P., a college player with brown hair."></img>
+                    <img className="mt-3 md:mt-0 border-1 md:size-93" src="/projects/hifiwireframes2.png" alt="High-fidelity prototype screens in full color displaying Soccer Groups near the San Diego region, and another screen depicting the final stages of scheduling a 1 versus 1 
                     basketball game with another player named Josh"></img>
                 </div>
                 <p className="pt-4">

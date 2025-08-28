@@ -9,7 +9,7 @@ export const ProjectsNav = () => {
         <div className="container max-w-4xl mx-auto text-left z-10 pt-7 pb-4 bg-secondary">
         <div className="space-y-6">
              <div className="-ml-8 pb-7">
-            <Link to="/Home#projects">
+            <Link to="/">
              <House className="size-9"/> 
              </Link>
              </div>

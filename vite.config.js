@@ -6,11 +6,12 @@ import path from "path"
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  content: [
-            './index.html',
-            './src/**/*.{js,ts,jsx,tsx}', // Adjust based on your project structure
-          ],
-  base: '/',
+  serverExternalPackages: [
+    '@tailwindcss/vite'
+  ],
+          optimizeDeps: {
+            exclude: ['@tailwindcss/oxide-darwin-arm64'],
+          },
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),

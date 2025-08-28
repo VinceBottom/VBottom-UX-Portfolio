@@ -6,7 +6,10 @@ import path from "path"
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: ["v-bottom-ux-portfolio"],
+  content: [
+            './index.html',
+            './src/**/*.{js,ts,jsx,tsx}', // Adjust based on your project structure
+          ],
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),

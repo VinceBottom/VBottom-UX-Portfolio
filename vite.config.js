@@ -10,6 +10,7 @@ export default defineConfig({
             './index.html',
             './src/**/*.{js,ts,jsx,tsx}', // Adjust based on your project structure
           ],
+  base: '/',
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),

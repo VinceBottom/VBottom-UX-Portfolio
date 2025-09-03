@@ -79,7 +79,7 @@ export const About = () => {
             Education <span className="text-primary"></span>    
             </h2>
 </div>       
-<div className="flex justify-center items-center sm:hide">
+<div className="flex justify-center items-center">
     <div>
     <img className="h-27 w-48 lg:w-45 lg:h-30 p-2" src="/logos/brandeislogo.jpg" alt="Brandeis University Logo"></img>
     <p className="text-sm"><b>Master of Science</b></p>

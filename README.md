@@ -1,3 +1,6 @@
+# About Project
+This is my UX Design and Research portfolio built in React.js using the Vite library and TailwindCSS.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
